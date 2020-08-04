@@ -1,22 +1,65 @@
 .blue {
-    color: blue;
-    background-color: lightgray;
+	color: blue;
+	background-color: lightgray;
 }
 
 #red {
-    color: red;
-    background-color: lightblue;
+	color: red;
+	background-color: lightblue;
 }
 
 .black {
-    background-color: black;
-    height: 300px;
+	background-color: black;
+	height: 300px;
 }
 
 .gray {
-    background-color: gray;
+	background-color: gray;
 }
 
 .another-color {
-    background-color: #66ff66;
+	background-color: #66ff66;
+}
+
+.strong {
+	font-weight: bold;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.p-style p {
+    color: navy;
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: yellow;
+    font-size: 1.5em;
+}
+
+.fakesite {
+    color: red;
+}
+
+.background {
+    background: url(../html/img/ItalyFlag.png) center no-repeat; /* indirizzo relativo rispetto alla posizione del file css */
+    /* width: 200px; */
+    height: 300px;
 }
