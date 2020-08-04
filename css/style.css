@@ -1,0 +1,22 @@
+.blue {
+    color: blue;
+    background-color: lightgray;
+}
+
+#red {
+    color: red;
+    background-color: lightblue;
+}
+
+.black {
+    background-color: black;
+    height: 300px;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.another-color {
+    background-color: #66ff66;
+}
