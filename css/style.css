@@ -59,7 +59,7 @@ a:hover {
 }
 
 .background {
-    background: url(../html/img/ItalyFlag.png) center no-repeat; /* indirizzo relativo rispetto alla posizione del file css */
+    background: url(../html/img/ItalyFlag.png) center no-repeat; /* address with respect to folder of css file */
     /* width: 200px; */
     height: 300px;
 }
