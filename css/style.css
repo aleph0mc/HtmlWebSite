@@ -63,3 +63,25 @@ a:hover {
     /* width: 200px; */
     height: 300px;
 }
+
+.align {
+    color: yellow;
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    width: 200px;
+    height: 400px;
+    background-color: red;
+}
+
+.align-right {
+    color: yellow;
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: right;
+    width: 200px;
+    height: 400px;
+    background-color: red;
+}
