@@ -1,0 +1,65 @@
+.red {
+	/* by default the position is static */
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	/* position: relative; */
+	/* left: 0px; /* requires the position attribute to work */
+	/* top: 0px;  requires the position attribute to work */
+	/* z-index: 10; the red box overlaps the blue one for 10 > 2 */
+	margin: 10px 100px 100px 200px; /*  top right bottom left */
+	border: 5px dotted yellow; /* width style color */
+}
+
+.blue {
+	width: 500px;
+	height: 500px;
+	background-color: blue;
+	/* position: absolute;
+    z-index: 2; */
+}
+
+.black {
+	width: 500px;
+	height: 500px;
+	background-color: black;
+	position: relative;
+	left: 100px;
+	margin-top: 20px;
+}
+
+.pink {
+	width: 500px;
+	height: 500px;
+	background-color: pink;
+}
+
+.fixed {
+	/* this will remian fixed on the screen dispate scrolling */
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	position: fixed;
+	z-index: 10; /* the red box overlaps the blue one for 10 > 2 */
+}
+
+.padding {
+	background-color: orange;
+	width: 200px;
+	height: 200px;
+	padding: 20px 20px 50px 50px; /*  top right bottom left */
+}
+
+.dotted {
+    border-style: solid;
+    border-width: 2px;
+    border-color: purple;
+    border-radius: 10px; /* add rounded borders */
+    padding: 10px;
+
+}
+
+.inset {
+	border-style: inset;
+    border-width: 5px 10px 20px 15px; /*  top right bottom left */
+}
